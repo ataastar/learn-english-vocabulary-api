@@ -1,0 +1,93 @@
+{
+	"group": [
+		{
+			"name": "test",
+			"code": "test"
+		},
+		{
+			"name": "unit 1",
+			"group": [
+				{
+					"name": "unit 1 A",
+					"code": "UNIT_1_A"
+				},
+				{
+					"name": "unit 1 B",
+					"code": "UNIT_1_B"
+				},
+				{
+					"name": "unit 1 C",
+					"code": "UNIT_1_C"
+				}
+			]
+		},
+		{
+			"name": "unit 2",
+			"group": [
+				{
+					"name": "unit 2 A",
+					"code": "UNIT_2_A"
+				},
+				{
+					"name": "unit 2 B",
+					"code": "UNIT_2_B"
+				},
+				{
+					"name": "unit 2 C",
+					"code": "UNIT_2_C"
+				}
+			]
+		},
+		{
+			"name": "unit 3",
+			"group": [
+				{
+					"name": "unit 3 A",
+					"code": "UNIT_3_A"
+				},
+				{
+					"name": "unit 3 B",
+					"code": "UNIT_3_B"
+				},
+				{
+					"name": "unit 3 C",
+					"code": "UNIT_3_C"
+				}
+			]
+		},
+		{
+			"name": "unit 4",
+			"group": [
+				{
+					"name": "unit 4 A",
+					"code": "UNIT_4_A"
+				},
+				{
+					"name": "unit 4 B",
+					"code": "UNIT_4_B"
+				},
+				{
+					"name": "unit 4 C",
+					"code": "UNIT_4_C"
+				}
+			]
+		},
+		{
+			"name": "unit 5",
+			"group": [
+				{
+					"name": "unit 5 A",
+					"code": "UNIT_5_A"
+				},
+				{
+					"name": "unit 5 B",
+					"code": "UNIT_5_B"
+				},
+				{
+					"name": "unit 5 C",
+					"code": "UNIT_5_C"
+				}
+			]
+		}
+	]
+}
