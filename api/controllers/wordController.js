@@ -1,0 +1,31 @@
+'use strict';
+
+
+var mongoose = require('mongoose'),
+	//Word = mongoose.model('words'),
+	WordGroup = mongoose.model('word_groups'),
+	Unit = mongoose.model('words');
+
+/*exports.listWords = function(req, res) {
+  Word.find({}, function(err, word) {
+    if (err)
+      res.send(err);
+    res.json(word);
+  });
+};*/
+
+exports.listWordGroups = function(req, res) {
+  WordGroup.find({}, function(err, wordGroup) {
+    if (err)
+      res.send(err);
+    res.json(wordGroup);
+  });
+};
+
+exports.listUnits = function(req, res) {
+  Unit.find({}, function(err, unit) {
+    if (err)
+      res.send(err);
+    res.json(unit);
+  });
+};
