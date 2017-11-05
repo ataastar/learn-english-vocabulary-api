@@ -29,3 +29,12 @@ exports.listUnits = function(req, res) {
     res.json(unit);
   });
 };
+
+exports.listWords = function(req, res) {
+  var groupCode = req.params.groupCode;
+  Unit.find({ code: groupCode}, function(err, words) {
+    if (err)
+      res.send(err);
+    res.json(words);
+  });
+};

@@ -9,11 +9,14 @@ var express = require('express'),
   
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/learn_english'); 
+mongoose.connect('mongodb://localhost/learn_english', {
+  useMongoClient: true,
+}); 
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(express.static('public'));
 
 
 var routes = require('./api/routes/wordRoutes'); //importing route

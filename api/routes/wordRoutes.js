@@ -8,8 +8,13 @@ module.exports = function(app) {
 
 
   app.route('/words')
-    .get(unit.listWords);
+    .get(unit.listUnits);
 	
   app.route('/word_groups')
     .get(unit.listWordGroups);
+
+    app.route('/words/:groupCode').get(unit.listWords);/*, function (req, res, next) {
+      var id = req.params.groupCode;
+      console.log('The id: ' + id);
+  });*/
 };
