@@ -13,6 +13,14 @@ mongoose.connect('mongodb://localhost/learn_english', {
   useMongoClient: true,
 }); 
 
+// TODO just on development
+app.all('/*', function (req, res, next) {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Credentials', true); 
+  res.header('Access-Control-Allow-Methods', 'POST, GET, PUT, DELTE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type'); 
+  next() // pass control to the next handler
+});
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
