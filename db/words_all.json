@@ -1,5 +1,30 @@
 [
     {
+        "name": "unit 1 A",
+        "code": "UNIT_1_A",
+        "words": [
+            {
+                "hungarian": "Hello! / Szia!",
+                "english": [
+                    "Hello",
+                    "Hi"
+                ]
+            },
+            {
+                "hungarian": "Viszlát!",
+                "english": [
+                    "Goodbye"
+                ]
+            },
+            {
+                "hungarian": "Hogy hívnak?",
+                "english": [
+                    "What's your name?"
+                ]
+            }
+        ]
+    },
+    {
         "name": "unit 3 C",
         "code": "UNIT_3_C",
         "words": [

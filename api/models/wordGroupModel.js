@@ -13,6 +13,9 @@ var WordGroupSchema = new Schema({
   },
   group: {
     type: [WordGroupSchema]
+  },
+  order: {
+    type: int
   }
 });
 
