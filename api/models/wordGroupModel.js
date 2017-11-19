@@ -15,7 +15,7 @@ var WordGroupSchema = new Schema({
     type: [WordGroupSchema]
   },
   order: {
-    type: int
+    type: Number
   }
 });
 
